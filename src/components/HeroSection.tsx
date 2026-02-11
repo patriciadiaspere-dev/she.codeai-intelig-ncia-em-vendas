@@ -33,7 +33,7 @@ const HeroSection = () => {
           className="glow-button text-primary-foreground border-0 text-lg px-8 py-6 rounded-xl"
           size="lg"
         >
-          Agendar Consultoria Gratuita
+          Quero automatizar minha operação
         </Button>
       </div>
     </section>
