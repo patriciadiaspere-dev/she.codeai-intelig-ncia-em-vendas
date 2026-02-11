@@ -23,10 +23,11 @@ const DashboardSection = () => {
   const { ref, isVisible } = useScrollReveal();
 
   return (
-    <section id="dashboard" className="py-20 relative" ref={ref}>
+    <section id="dashboard" className="py-24 relative" ref={ref}>
       <div className="container mx-auto px-4">
+        <p className="text-xs text-neon-blue font-semibold uppercase tracking-wider mb-3 text-center">Inteligência de Dados</p>
         <h2 className="font-display text-3xl md:text-4xl font-bold text-center mb-4">
-          <span className="text-gradient">Transparência Total</span> nos Repasses
+          <span className="text-gradient">Decisões lucrativas</span> baseadas em dados reais
         </h2>
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
           Veja exatamente para onde vai cada centavo. Nossos dashboards descomplicam os dados da Amazon em tempo real.

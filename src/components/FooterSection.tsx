@@ -71,7 +71,7 @@ const FooterSection = () => {
             </div>
             <Button type="submit" className="glow-button text-primary-foreground border-0 w-full py-6 text-base" disabled={loading}>
               <Send className="h-4 w-4 mr-2" />
-              {loading ? "Enviando..." : "Agendar Consultoria Gratuita"}
+              {loading ? "Enviando..." : "Falar com um Especialista"}
             </Button>
           </form>
         </div>
