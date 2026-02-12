@@ -14,9 +14,18 @@ const Index = () => {
         <HeroSection />
         <StatsSection />
         <PainSection />
+
+        {/* Pilar 1: Automação de Atendimento */}
         <SolutionsSection />
-        <div className="border-t border-border/30 mx-auto max-w-4xl" />
+
+        {/* Visual separator */}
+        <div className="py-8">
+          <div className="border-t border-border/20 mx-auto max-w-5xl" />
+        </div>
+
+        {/* Pilar 2: Gestão de Marketplace */}
         <DashboardSection />
+
         <FooterSection />
       </main>
     </div>
