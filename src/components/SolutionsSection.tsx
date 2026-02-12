@@ -29,9 +29,6 @@ const SolutionsSection = () => {
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-24 h-1 rounded-full bg-gradient-to-r from-neon-purple to-neon-blue opacity-60" />
 
       <div className="container mx-auto px-4">
-        <div className="inline-flex items-center gap-2 glass-card rounded-full px-4 py-1.5 text-xs font-semibold uppercase tracking-wider text-neon-purple mb-4 mx-auto block w-fit">
-          Pilar 1 — Automação de Atendimento
-        </div>
         <h2 className="font-display text-3xl md:text-5xl font-bold text-center mb-4">
           Automação com bots personalizados{" "}
           <span className="text-gradient">para E-commerce</span>
