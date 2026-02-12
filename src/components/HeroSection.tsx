@@ -20,12 +20,12 @@ const HeroSection = () => {
         </div>
 
         <h1 className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-tight mb-6">
-          Transforme seu Atendimento em{" "}
-          <span className="text-gradient">Inteligência de Vendas</span>
+          Inteligência que Automatiza Vendas e{" "}
+          <span className="text-gradient">Simplifica Gestão.</span>
         </h1>
 
         <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 leading-relaxed">
-          Agentes de IA 24/7 via WhatsApp, chatbot humanizado e Dashboards que trazem clareza absoluta sobre seus repasses e lucros na Amazon.
+          Escale seu E-commerce com IA: Atendimento que Vende e Inteligência que Lucra.
         </p>
 
         <Button

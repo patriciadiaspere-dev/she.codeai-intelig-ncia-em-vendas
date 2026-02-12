@@ -13,11 +13,10 @@ const StatsSection = () => {
   return (
     <section id="stats" className="py-20 relative" ref={ref}>
       <div className="container mx-auto px-4">
-        <p className="text-center text-muted-foreground text-lg mb-12 max-w-2xl mx-auto">
-          <span className="text-gradient font-display font-semibold text-2xl block mb-2">
-            A velocidade é o novo diferencial competitivo
+        <p className="text-center mb-12 max-w-2xl mx-auto">
+          <span className="text-gradient font-display font-semibold text-3xl md:text-4xl block">
+            A velocidade é o novo diferencial competitivo no e-commerce
           </span>
-          no e-commerce
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
