@@ -30,8 +30,9 @@ const SolutionsSection = () => {
 
       <div className="container mx-auto px-4">
         <h2 className="font-display text-3xl md:text-5xl font-bold text-center mb-4">
-          Automação com bots personalizados{" "}
-          <span className="text-gradient">para E-commerce</span>
+          Automação com bots personalizados
+          <br />
+          <span className="text-gradient">para&nbsp;E‑commerce</span>
         </h2>
         <p className="text-center text-muted-foreground mb-16 max-w-2xl mx-auto text-lg leading-relaxed">
           Muito mais que um chat: uma ferramenta completa de relacionamento que automatiza respostas e personaliza conversas.
@@ -82,6 +83,11 @@ const SolutionsSection = () => {
             </div>
           ))}
         </div>
+
+        {/* Complemento */}
+        <p className="text-center text-lg md:text-xl font-medium mt-14 text-foreground/80">
+          Tudo isso em sua <span className="text-gradient font-semibold">loja virtual</span> ou no <span className="text-gradient font-semibold">WhatsApp</span>.
+        </p>
       </div>
     </section>
   );
