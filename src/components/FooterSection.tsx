@@ -34,7 +34,7 @@ const FooterSection = () => {
             Pronto para <span className="text-gradient">Escalar</span>?
           </h2>
           <p className="text-center text-muted-foreground mb-8">
-            Agende uma consultoria gratuita e descubra como a IA pode transformar seu e-commerce.
+            Entre em contato e descubra como a IA pode transformar seu e-commerce.
           </p>
 
           <form onSubmit={handleSubmit} className="space-y-4">
