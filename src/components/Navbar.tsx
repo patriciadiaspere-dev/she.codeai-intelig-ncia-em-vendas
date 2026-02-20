@@ -5,10 +5,8 @@ import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 
 const navLinks = [
   { label: "Início", href: "#hero" },
-  { label: "Desafios", href: "#pain" },
   { label: "Atendimento", href: "#atendimento" },
   { label: "Gestão", href: "#dashboard" },
-  { label: "Contato", href: "#contact" },
 ];
 
 const SheCodeLogo = () => (
@@ -62,7 +60,7 @@ const Navbar = () => {
           ))}
           <Button
             className="glow-button text-primary-foreground border-0"
-            onClick={() => scrollTo("#contact")}
+            onClick={() => (window as any).Typebot?.open()}
           >
             Falar com um Especialista
           </Button>
@@ -88,7 +86,7 @@ const Navbar = () => {
               ))}
               <Button
                 className="glow-button text-primary-foreground border-0 mt-4"
-                onClick={() => scrollTo("#contact")}
+                onClick={() => { setOpen(false); (window as any).Typebot?.open(); }}
               >
                 Falar com um Especialista
               </Button>

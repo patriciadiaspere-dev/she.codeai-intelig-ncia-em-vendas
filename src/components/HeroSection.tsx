@@ -1,4 +1,3 @@
-import { Button } from "@/components/ui/button";
 import { Sparkles } from "lucide-react";
 
 const HeroSection = () => {
@@ -28,13 +27,6 @@ const HeroSection = () => {
           Escale seu E-commerce com IA: Atendimento que Vende e Inteligência que Lucra.
         </p>
 
-        <Button
-          onClick={scrollToContact}
-          className="glow-button text-primary-foreground border-0 text-lg px-8 py-6 rounded-xl"
-          size="lg"
-        >
-          Quero automatizar minha operação
-        </Button>
       </div>
     </section>
   );
