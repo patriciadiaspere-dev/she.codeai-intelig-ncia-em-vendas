@@ -27,20 +27,17 @@
    <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
 
-    <script type="module">
-      import Typebot from 'https://cdn.jsdelivr.net/npm/@typebot.io/js@0/dist/web.js'
+   <script type="module">
+    import Typebot from 'https://cdn.jsdelivr.net/npm/@typebot.io/js@0/dist/web.js'
 
-      Typebot.initBubble({
+    Typebot.initBubble({
       typebot: "my-typebot-2c3jlfo",
       theme: {
-      button: { 
-        backgroundColor: "#FF5F38", // Cor coral/laranja dos seus botões
-        customIconSrc: "",          // Aqui você pode pôr o link de um ícone maior se quiser
-        size: "large"               // Força o tamanho maior do balão
+        button: { 
+          backgroundColor: "#9b6dff", // O roxo do seu botão "Falar com Especialista"
+        },
       },
-      chatWindow: { backgroundColor: "#F8F8F8" },
-    },
-  });
+    });
   </script>
 </body>
 </html>
