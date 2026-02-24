@@ -17,7 +17,7 @@ const FooterSection = () => {
             size="lg"
             onClick={() => (window as any).Typebot?.open()}
           >
-            Falar com um Especialista
+            Falar com uma Especialista
           </Button>
         </div>
 
