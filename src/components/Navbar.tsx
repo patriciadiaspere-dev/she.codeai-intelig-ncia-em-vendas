@@ -62,7 +62,7 @@ const Navbar = () => {
             className="glow-button text-primary-foreground border-0"
             onClick={() => (window as any).Typebot?.open()}
           >
-            Falar com um Especialista
+            Falar com uma Especialista
           </Button>
         </div>
 
@@ -88,7 +88,7 @@ const Navbar = () => {
                 className="glow-button text-primary-foreground border-0 mt-4"
                 onClick={() => { setOpen(false); (window as any).Typebot?.open(); }}
               >
-                Falar com um Especialista
+                Falar com uma Especialista
               </Button>
             </div>
           </SheetContent>
